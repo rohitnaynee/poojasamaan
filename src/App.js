@@ -96,7 +96,7 @@ unsubscribeFromAuth = null
 }
 
 const mapStateToProps = ({ user }) => ({ 
-  currentUser: user.currentuser
+  currentUser: user.currentUser
  })
 
 const mapDispatchToProps = dispatch => ({
