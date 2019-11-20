@@ -24,11 +24,28 @@
     }
 
     .quantity {
-        padding-left: 20px;
+        display: flex;
+
+        .minus {
+            cursor: pointer;
+            padding-right: 10px;
+            color: orangered;
+        }
+        .plus {
+            cursor: pointer;
+            padding-left: 10px;
+            color: green;
+        }
+
+        .value{
+            margin:  0 10px;
+        }
+
     }
 
     .remove-button {
         font-size: 40px;
         color: red;
+        cursor: pointer;
     }
 }
